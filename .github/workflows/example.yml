@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ vars.DOCKERHUB_USERNAME }}
+        tags: ${{ vars.DOCKERHUB_USERNAME }}/docker-practise:latest
